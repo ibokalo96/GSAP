@@ -24,6 +24,7 @@ export const TableRow: React.FC<TableRowProps> = ({
   tableInfo,
   toggleDetails,
 }) => {
+  console.log();
   return (
     <div className={`row ${activeRows.includes(index) ? "row-active" : ""}`}>
       <div className="col">{tableInfo.DATE}</div>
